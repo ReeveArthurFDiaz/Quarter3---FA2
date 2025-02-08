@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Arithmetic Operations Calculator</title>
+    <link rel="stylesheet" href="calcStyles.css">
+</head>
+<body>
+    <h1>Arithmetic Operations Calculator</h1>
+    <p>Hi there! To use this calculator, put two desired numbers in the two boxes. After that, click one of the operations below them. The results will be displayed! Have fun!</p>
+    <p id="note">Brief Note: If the output says NaN, you probably forgot to input a number.</p>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+
+    <br><br>
+
+    <div class="buttons">
+        <button onclick="addFunction()">+</button>
+        <button onclick="subFunction()">-</button>
+        <button onclick="multFunction()">*</button>
+        <button onclick="divFunction()">/</button>
+        <button onclick="modFunction()">%</button>
+    </div>  
+    <p id="result">Results will be displayed here.</p>
+
+    <script src="functionScript.js"></script>
+</body>
+</html>
